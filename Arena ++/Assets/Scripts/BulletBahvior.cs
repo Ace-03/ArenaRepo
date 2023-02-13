@@ -5,7 +5,7 @@ using UnityEngine;
 public class BulletBahvior : MonoBehaviour
 {
 
-    public float onscreenDelay = 3f;
+    public float onscreenDelay = 1f;
     // Start is called before the first frame update
     void Start()
     {

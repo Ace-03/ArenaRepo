@@ -243,7 +243,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 75524926216776366, guid: 375856849dbce4346b90cbda2dadd7a9, type: 3}
   m_PrefabInstance: {fileID: 967577979}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &245506181
+--- !u!114 &245506187
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 245506175}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7894a6994e89cf04cbfcf551ba5bf311, type: 3}
+  m_Script: {fileID: 11500000, guid: b05814ccf75356f4cbc36a8561579643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 0}
@@ -979,9 +979,12 @@ MonoBehaviour:
   distanceToGround: 0.1
   groundLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   bullet: {fileID: 6063971760799361149, guid: 31db1042e6a974342b770e0145eddf91, type: 3}
-  bulletSpeed: 10
+  fourth_shot: {fileID: 0}
+  bulletSpeed: 100
+  shot: 0
+  gameManager: {fileID: 0}
 --- !u!136 &707914822
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1016,7 +1019,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0914ef0d3da701d4589c6ec6541618dc, type: 2}
+  - {fileID: 2100000, guid: 2fbe4773c18758d4d8992d1fa047efd1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1350,7 +1353,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 75524926216776366, guid: 375856849dbce4346b90cbda2dadd7a9, type: 3}
   m_PrefabInstance: {fileID: 1190059425}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1083534587
+--- !u!114 &1083534593
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1359,7 +1362,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1083534581}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7894a6994e89cf04cbfcf551ba5bf311, type: 3}
+  m_Script: {fileID: 11500000, guid: a4d3423b01c0c7a40bc895779a44b257, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 0}
@@ -1417,7 +1420,7 @@ PrefabInstance:
     - target: {fileID: 5500526309356846825, guid: 375856849dbce4346b90cbda2dadd7a9, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 86ef92ab2a260f0458f0430026e2034b, type: 2}
+      objectReference: {fileID: 2100000, guid: 3c96bd5e75e9abd4fa904cd99ecc3c8e, type: 2}
     - target: {fileID: 6668633180255370900, guid: 375856849dbce4346b90cbda2dadd7a9, type: 3}
       propertyPath: m_Name
       value: Capsule (2)

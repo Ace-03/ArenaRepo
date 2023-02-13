@@ -10,6 +10,20 @@ public class GameBehavior : MonoBehaviour
     private int _itemsCollected = 0;
     private int _playerHP = 10;
 
+    private bool tracer;
+    public bool Tracer_Pickup
+    {
+        get { return tracer ; }
+        set { tracer = value; }
+    }
+
+    private bool four;
+    public bool Four_Pickup
+    {
+        get { return four; }
+        set { four = value; }
+    }
+
     public string labelText = "Collect all 4 items and win your freedom";
     public int maxItems = 4;
 
